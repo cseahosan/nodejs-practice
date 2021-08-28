@@ -59,7 +59,7 @@ handler.handleReqRes = (req, res) => {
     req.on('end', () => {
         realData += decoder.end();
         console.log(realData);
-        // res.end('Hello World');
+        res.end('Hello World');
     });
 };
 

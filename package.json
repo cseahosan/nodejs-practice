@@ -1,7 +1,8 @@
 {
   "main": "index.js",
   "scripts": {
-    "start": "npx nodemon index"
+    "start": "NODE_ENV=staging npx nodemon index",
+    "production": "NODE_ENV=production npx nodemon index"
   },
   "dependencies": {
     "lodash": "^4.17.21"
